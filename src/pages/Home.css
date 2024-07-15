@@ -1,0 +1,44 @@
+.home-container {
+height: 100vh;
+overflow: hidden;
+background-color: #f8f9fa;
+}
+
+.content-wrapper {
+max-width: 80%;
+}
+
+.main-title {
+font-size: 3.5rem;
+font-weight: 700;
+color: #2c3e50;
+margin-bottom: 1rem;
+}
+
+.lead {
+font-size: 1.25rem;
+color: #34495e;
+}
+
+.get-started-btn {
+padding: 0.75rem 2rem;
+font-size: 1.1rem;
+font-weight: 600;
+text-transform: uppercase;
+transition: all 0.3s ease;
+}
+
+.get-started-btn:hover {
+transform: translateY(-3px);
+box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 767px) {
+.main-title {
+    font-size: 2.5rem;
+}
+
+.lead {
+    font-size: 1rem;
+}
+}

@@ -1,0 +1,24 @@
+.template-form-container {
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+.card {
+border: none;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.letter-preview {
+background-color: #f8f9fa;
+padding: 1rem;
+border-radius: 4px;
+min-height: 200px;
+}
+
+h2 {
+color: #007bff;
+}
+
+h3 {
+color: #28a745;
+}
